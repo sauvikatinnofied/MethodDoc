@@ -14,6 +14,7 @@
 		45F099BE19E4427F00608585 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F099BD19E4427F00608585 /* Images.xcassets */; };
 		45F099C119E4427F00608585 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45F099BF19E4427F00608585 /* LaunchScreen.xib */; };
 		45F099CD19E4427F00608585 /* MethodDocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F099CC19E4427F00608585 /* MethodDocTests.m */; };
+		45F099D819E442B000608585 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F099D719E442B000608585 /* MyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		45F099C619E4427F00608585 /* MethodDocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MethodDocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F099CB19E4427F00608585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45F099CC19E4427F00608585 /* MethodDocTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MethodDocTests.m; sourceTree = "<group>"; };
+		45F099D619E442B000608585 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		45F099D719E442B000608585 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				45F099B519E4427F00608585 /* AppDelegate.m */,
 				45F099B719E4427F00608585 /* ViewController.h */,
 				45F099B819E4427F00608585 /* ViewController.m */,
+				45F099D619E442B000608585 /* MyView.h */,
+				45F099D719E442B000608585 /* MyView.m */,
 				45F099BA19E4427F00608585 /* Main.storyboard */,
 				45F099BD19E4427F00608585 /* Images.xcassets */,
 				45F099BF19E4427F00608585 /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45F099D819E442B000608585 /* MyView.m in Sources */,
 				45F099B919E4427F00608585 /* ViewController.m in Sources */,
 				45F099B619E4427F00608585 /* AppDelegate.m in Sources */,
 				45F099B319E4427F00608585 /* main.m in Sources */,

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MyView.h"
 
 @interface ViewController ()
 
@@ -17,11 +18,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    // Drawing call
+    [self drawCustomView];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+-(void)drawCustomView{
+    MyView *myView = [[MyView alloc]initWithFrame:CGRectMake(20, 20, 250, 250)];
+    [self.view addSubview:myView];
+    
 }
 
 @end
